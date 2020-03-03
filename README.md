@@ -5,8 +5,9 @@ Your goal is to find all flowers and breads located on the map.
 You can flap equal to the number of feather you have. Bring your lady duck flowers to gain more feathers.
 Don't forget to post your time, let's see how can be the flappiest ducky!  
 
-[**Try it in browser**]()
-[Itch Site](https://achie.itch.io/flappy-ducky)
+[**Try it in browser**](https://achie72.github.io/flappy_ducky/)  
+[Itch Site](https://achie.itch.io/flappy-ducky)  
+
 ---  
 
 Controls:
