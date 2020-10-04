@@ -107,8 +107,8 @@ function _init()
 		maxFall = 1,
 		maxSpeed = 1,
 		negmaxSpeed = -1,
-		flaps = 2,
-		maxFlaps = 2,
+		flaps = 10,
+		maxFlaps = 10,
 		flowers = 0,
 		flowersCollected = 0,
 		bread = 0,
@@ -211,14 +211,6 @@ function animate(object,starting_frame,number_of_frames,speed,ticks)
 
 	object.actualframe=starting_frame+object.a_st
 	spr(object.actualframe,flr(object.x),flr(object.y),1,1,ticks)
-end
-
-function dst(o1,o2)
-	return sqrt(sqr(o1.x-o2.x)+sqr(o1.y-o2.y))
-end
-
-function sqr(x) 
-	return x*x
 end
 
 function collide_map(object,width,heigth,direction,flag)
@@ -628,6 +620,14 @@ function draw_game()
 		rectfill(player.x-10,player.y+60,player.x+20,player.y+70,0)
 		print(global.minutes..":"..global.secs, player.x,player.y+61,7)
 	end
+
+	local txt = "thank you so much for"
+	local t2 = "100"
+	local t3 = "followers!!!"
+
+	print(txt,70*8-(#txt*2),96,9)
+	print(t2,70*8-(#t2*2),104,9)
+	print(t3,70*8-(#t3*2),112,9)
 end
 
 
